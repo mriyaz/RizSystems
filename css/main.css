@@ -3,7 +3,7 @@
 Global Styles
 ========================================================================== */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   color: #0d0d0d;
   overflow-x: hidden;
@@ -127,7 +127,7 @@ Buttons Styles
 }
 
 .btn-block {
-  background: #24242a;
+  background: #41b883;
   padding: 15px 0;
   font-size: 16px;
   -moz-border-radius: 0;
@@ -160,7 +160,7 @@ Buttons Styles
 Layout 
 ========================================================================== */
 .dark-bg {
-  background: #24242a;
+  /* background: #24242a; */
 }
 
 .light-bg {
@@ -236,7 +236,7 @@ Navigation Style
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   background: transparent;
-  color: #a3a3a3;
+  color: #41b883;
 }
 
 .top-nav-collapse {

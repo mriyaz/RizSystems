@@ -1,11 +1,11 @@
-$(function() {
+$(function () {
 
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
-        submitError: function($form, event, errors) {
+        submitError: function ($form, event, errors) {
             // additional error messages or events
         },
-        submitSuccess: function($form, event) {
+        submitSuccess: function ($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
@@ -18,8 +18,9 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://formspree.io/f/xyyaplkj",
                 type: "POST",
+                dataType: "json",
                 data: {
                     name: name,
                     phone: phone,
@@ -27,7 +28,7 @@ $(function() {
                     message: message
                 },
                 cache: false,
-                success: function() {
+                success: function () {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -40,7 +41,8 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-                error: function() {
+                error: function (e) {
+                    console.log(e);
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -52,19 +54,50 @@ $(function() {
                 },
             })
         },
-        filter: function() {
+        filter: function () {
             return $(this).is(":visible");
         },
     });
 
-    $("a[data-toggle=\"tab\"]").click(function(e) {
+    $("a[data-toggle=\"tab\"]").click(function (e) {
         e.preventDefault();
         $(this).tab("show");
     });
 });
 
+// var form = document.getElementById("contactForm");
+// async function handleSubmit(event) {
+//     event.preventDefault();
+//     var status = document.getElementById("success");
+//     var data = new FormData(event.target);
+//     fetch(event.target.action,
+//         {
+//             method: form.method,
+//             body: data, headers: { 'Accept': 'application/json' }
+//         })
+//         .then(response => {
+//             if (response.ok) {
+//                 status.innerHTML = "<strong>Your message has been sent. </strong>"; form.reset()
+//             }
+//             else {
+//                 response.json()
+//                     .then(data => {
+//                         if (Object.hasOwn(data, 'errors')) {
+//                             status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+//                         }
+//                         else {
+//                             status.innerHTML = "Oops! There was a problem submitting your form"
+//                         }
+//                     })
+//             }
+//         })
+//         .catch(error => { 
+//             console.log(error);
+//             status.innerHTML = "Oops! There was a problem submitting your form" });
+// }
+// form.addEventListener("submit", handleSubmit)
 
 /*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
+$('#name').focus(function () {
     $('#success').html('');
 });
