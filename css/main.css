@@ -658,7 +658,7 @@ footer .social a:active {
   color: #a3a3a3;
 }
 footer h6 {
-  text-transform: uppercase;
+  text-transform:capitalize;
   color: #fff;
 }
 
