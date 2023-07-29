@@ -1,174 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Riz Systems | AI Software Solutions</title>
 
-  <title>Riz Systems | AI Software Solutions</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="img/logo/favicon1.ico"
+    />
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon1.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Website Design and Development" />
+    <meta
+      name="keywords"
+      content="AI Automation,Botpress,Zapier,StackAI,LLMs,Langchain,fastai,huggingface"
+    />
+    <meta name="author" content="Riz Systems" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Website Design and Development" />
-  <meta name="keywords"
-    content="AI Automation,Botpress,Zapier,StackAI,LLMs,Langchain,fastai,huggingface" />
-  <meta name="author" content="Riz Systems" />
+    <!-- Bootstrap Css -->
+    <!-- <link href="bootstrap-assets/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap Css -->
-  <!-- <link href="bootstrap-assets/css/bootstrap.min.css" rel="stylesheet" /> -->
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous"
+    />
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
-    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
+    <!-- Style -->
+    <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
+    <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet" />
+    <link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet" />
+    <link href="plugins/Lightbox/dist/css/lightbox.css" rel="stylesheet" />
+    <link href="plugins/Icons/et-line-font/style.css" rel="stylesheet" />
+    <link href="plugins/animate.css/animate.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
 
-  <!-- Style -->
-  <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
-  <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet" />
-  <link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet" />
-  <link href="plugins/Lightbox/dist/css/lightbox.css" rel="stylesheet" />
-  <link href="plugins/Icons/et-line-font/style.css" rel="stylesheet" />
-  <link href="plugins/animate.css/animate.css" rel="stylesheet" />
-  <link href="css/main.css" rel="stylesheet" />
+    <!-- Icons Font -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+  </head>
 
-  <!-- Icons Font -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-</head>
-
-<body>
-  <!-- Preloader
+  <body>
+    <!-- Preloader
 	============================================= -->
-  <div class="preloader">
-    <i class="fa fa-circle-o-notch fa-spin fa-2x"></i>
-  </div>
-  <!-- Header
+    <div class="preloader">
+      <i class="fa fa-circle-o-notch fa-spin fa-2x"></i>
+    </div>
+    <!-- Header
 	============================================= -->
-  <section class="main-header">
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <section class="main-header">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"
+              ><img
+                src="img/logo/logo3.png"
+                class="img-responsive"
+                alt="Riz Systems logo"
+                style="height: auto; width: 100%; max-width: 200px"
+            /></a>
+          </div>
+          <div
+            class="collapse navbar-collapse text-center"
+            id="bs-example-navbar-collapse-1"
+          >
+            <div class="col-md-8 col-xs-12 nav-wrap">
+              <ul class="nav navbar-nav">
+                <li><a href="#owl-hero" class="page-scroll">Home</a></li>
+                <li><a href="#services" class="page-scroll">Services</a></li>
+                <!-- <li><a href="#portfolio" class="page-scroll">Works</a></li> -->
+                <li><a href="#team" class="page-scroll">About</a></li>
+                <li><a href="#contact" class="page-scroll">Contact</a></li>
+              </ul>
+            </div>
+            <div class="social-media hidden-sm hidden-xs">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a
+                    href="https://www.facebook.com/people/Riz-Systems/100095083069034/"
+                    target="_blank"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/RizSystems" target="_blank"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/riz-systems"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="owl-hero" class="owl-carousel owl-theme">
+        <!-- 1980 X 1380 -->
+        <div
+          class="item"
+          style="background-image: url(img/sliders/Slide1.jpg)"
+          alt="dynamic website"
+        >
+          <div class="caption">
+            <h1>AI <span>Agents</span></h1>
+            <a class="btn btn-transparent" href="#services">Learn More</a
+            ><a class="btn btn-light" href="#contact">Contact Us</a>
+          </div>
+        </div>
+        <div
+          class="item"
+          style="background-image: url(img/sliders/Slide2.jpg)"
+          alt="creative design"
+        >
+          <div class="caption">
+            <h1>AI <span>Chatbots</span></h1>
+            <a class="btn btn-transparent" href="#services">Learn More</a
+            ><a class="btn btn-light" href="#contact">Contact Us</a>
+          </div>
+        </div>
+        <div
+          class="item"
+          style="background-image: url(img/sliders/Slide3.jpg)"
+          alt="clean code"
+        >
+          <div class="caption">
+            <h1>AI <span>Model Development & Training</span></h1>
+            <a class="btn btn-transparent" href="#services">Learn More</a
+            ><a class="btn btn-light" href="#contact">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Welcome
+	============================================= -->
+    <section id="welcome">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="img/logo/logo3.png" class="img-responsive" alt="Riz Systems logo"
-              style="height:auto;width:100%; max-width: 200px" /></a>
-        </div>
-        <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
-          <div class="col-md-8 col-xs-12 nav-wrap">
-            <ul class="nav navbar-nav">
-              <li><a href="#owl-hero" class="page-scroll">Home</a></li>
-              <li><a href="#services" class="page-scroll">Services</a></li>
-              <!-- <li><a href="#portfolio" class="page-scroll">Works</a></li> -->
-              <li><a href="#team" class="page-scroll">About</a></li>
-              <li><a href="#contact" class="page-scroll">Contact</a></li>
-            </ul>
-          </div>
-          <div class="social-media hidden-sm hidden-xs">
-            <ul class="nav navbar-nav">
-              <li>
-                <a href="https://www.facebook.com/people/Riz-Systems/100095083069034/" target="_blank"><i class="fa fa-facebook"></i></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/RizSystems" target="_blank"><i class="fa fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/company/riz-systems" target="_blank"><i class="fa fa-linkedin"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <h2>Welcome To</h2>
+        <img
+          class="img-responsive center-block wow fadeInUp"
+          data-wow-delay=".3s"
+          src="img/welcome/logo2.png"
+          alt="Riz Systems logo"
+        />
+        <p>Let's Make Something Cool Together</p>
       </div>
-    </nav>
-    <div id="owl-hero" class="owl-carousel owl-theme">
-      <!-- 1980 X 1380 -->
-      <div class="item" style="background-image: url(img/sliders/Slide1.jpg)" alt="dynamic website">
-        <div class="caption">
+    </section>
 
-          <h1>AI <span>Agents</span></h1>
-          <a class="btn btn-transparent" href="#services">Learn More</a><a class="btn btn-light" href="#contact">Contact
-            Us</a>
-        </div>
-      </div>
-      <div class="item" style="background-image: url(img/sliders/Slide2.jpg)" alt="creative design">
-        <div class="caption">
-
-          <h1>AI <span>Chatbots</span></h1>
-          <a class="btn btn-transparent" href="#services">Learn More</a><a class="btn btn-light" href="#contact">Contact
-            Us</a>
-        </div>
-      </div>
-      <div class="item" style="background-image: url(img/sliders/Slide3.jpg)" alt="clean code">
-        <div class="caption">
-
-          <h1>AI <span>Model Development & Training</span></h1>
-          <a class="btn btn-transparent" href="#services">Learn More</a><a class="btn btn-light" href="#contact">Contact
-            Us</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Welcome
+    <!-- Services
 	============================================= -->
-  <section id="welcome">
-    <div class="container">
-      <h2>Welcome To </h2><img class="img-responsive center-block wow fadeInUp" data-wow-delay=".3s"
-        src="img/welcome/logo2.png" alt="Riz Systems logo" />
-      <p>Let's Make Something Cool Together</p>
+    <section id="services">
+      <div class="container">
+        <h2>What We Do</h2>
 
-    </div>
-  </section>
-
-  <!-- Services
-	============================================= -->
-  <section id="services">
-    <div class="container">
-      <h2>What We Do</h2>
-
-      <div class="services-box">
-        <div class="row wow fadeInUp" data-wow-delay=".3s">
-          <div class="col-md-4">
-            <div class="media-left"><span class="icon-pencil"></span></div>
-            <div class="media-body">
-              <h3>AI Agents</h3>
-              <p>
-                We help businesses develop agents that perform question answering, interact with APIs, and take actions based on language models. We use the latest technologies, such as large language models (LLMs) and conversational memory, to create agents that are both informative and engaging.
-              </p>
+        <div class="services-box">
+          <div class="row wow fadeInUp" data-wow-delay=".3s">
+            <div class="col-md-4">
+              <div class="media-left"><span class="icon-pencil"></span></div>
+              <div class="media-body">
+                <h3>AI Agents</h3>
+                <p>
+                  We help businesses develop agents that perform question
+                  answering, interact with APIs, and take actions based on
+                  language models. We use the latest technologies, such as large
+                  language models (LLMs) and conversational memory, to create
+                  agents that are both informative and engaging.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="media-left"><span class="icon-mobile"></span></div>
-            <div class="media-body">
-              <h3>AI Chatbots</h3>
-              <p>
-                We also help businesses develop chatbots that are based on LLMs. These chatbots are great at answering questions, but they can also do more than that. They can hold conversations, provide recommendations, and even complete tasks on behalf of users.
-              </p>
+            <div class="col-md-4">
+              <div class="media-left"><span class="icon-mobile"></span></div>
+              <div class="media-body">
+                <h3>AI Chatbots</h3>
+                <p>
+                  We also help businesses develop chatbots that are based on
+                  LLMs. These chatbots are great at answering questions, but
+                  they can also do more than that. They can hold conversations,
+                  provide recommendations, and even complete tasks on behalf of
+                  users.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="media-left"><span class="icon-clock"></span></div>
-            <div class="media-body">
-              <h3>AI Models</h3>
-              <p>
-                In addition to developing agents and chatbots, we also help businesses develop algorithms and data to teach computers how to perform specific tasks. This involves selecting and preparing the data, choosing an appropriate algorithm, and tuning it to achieve the desired performance.
-              </p>
+            <div class="col-md-4">
+              <div class="media-left"><span class="icon-clock"></span></div>
+              <div class="media-body">
+                <h3>AI Models</h3>
+                <p>
+                  In addition to developing agents and chatbots, we also help
+                  businesses develop algorithms and data to teach computers how
+                  to perform specific tasks. This involves selecting and
+                  preparing the data, choosing an appropriate algorithm, and
+                  tuning it to achieve the desired performance.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <!-- <div class="row wow fadeInUp" data-wow-delay=".6s">
+            <!-- <div class="row wow fadeInUp" data-wow-delay=".6s">
             <div class="col-md-4">
               <div class="media-left">
                 <span class="icon-adjustments"></span>
@@ -204,16 +270,14 @@
               </div>
             </div>
           </div> -->
-
-
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Portfolio
+    <!-- Portfolio
 	============================================= -->
-  <!-- <section id="portfolio">
+    <!-- <section id="portfolio">
     <div class="container-fluid">
       <h2>Our Work</h2>
       <hr class="sep" />
@@ -347,60 +411,62 @@
       </div>
     </div>
   </section>-->
-  <!-- Work Process
+    <!-- Work Process
 	============================================= -->
-  <section id="work-process">
-    <div class="container">
-      <h2>Work Process</h2>
-      <hr class="sep" />
-      <p>Steps To A Great AI Product</p>
-      <div class="row wow fadeInUp" data-wow-delay=".3s">
-        <div class="col-lg-3">
-          <span class="fa fa-regular fa-comments"></span>
-          <h4>1.Consultation</h4>
-        </div>
-        <div class="col-lg-3">
-          <span class="fa fa-regular fa-database"></span>
-          <h4>2.Data Collection</h4>
-        </div>
-        <div class="col-lg-3">
-          <span class="fa fa-regular fa-cogs"></span>
-          <h4>3.Data Preprocessing</h4>
-        </div>
-        <div class="col-lg-3">
-          <span class="fa fa-solid fa-android"></span>
-          <h4>4.Model Development</h4>
-        </div>
-        <div class="col-lg-3">
-          <span class="fa fa-regular fa-check-square"></span>
-          <h4>5.Testing and Evaluation</h4>
-        </div>
-        <div class="col-lg-3">
-          <span class="fa fa-regular fa-wrench"></span>
-          <h4>6.Deployment and Maintenance</h4>
+    <section id="work-process">
+      <div class="container">
+        <h2>Work Process</h2>
+        <hr class="sep" />
+        <p>Steps To A Great AI Product</p>
+        <div class="row wow fadeInUp" data-wow-delay=".3s">
+          <div class="col-lg-3">
+            <span class="fa fa-regular fa-comments"></span>
+            <h4>1.Consultation</h4>
+          </div>
+          <div class="col-lg-3">
+            <span class="fa fa-regular fa-database"></span>
+            <h4>2.Data Collection</h4>
+          </div>
+          <div class="col-lg-3">
+            <span class="fa fa-regular fa-cogs"></span>
+            <h4>3.Data Preprocessing</h4>
+          </div>
+          <div class="col-lg-3">
+            <span class="fa fa-solid fa-android"></span>
+            <h4>4.Model Development</h4>
+          </div>
+          <div class="col-lg-3">
+            <span class="fa fa-regular fa-check-square"></span>
+            <h4>5.Testing and Evaluation</h4>
+          </div>
+          <div class="col-lg-3">
+            <span class="fa fa-regular fa-wrench"></span>
+            <h4>6.Deployment and Maintenance</h4>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- About Us
+    </section>
+    <!-- About Us
 	============================================= -->
-  <section id="team">
-    <div class="container">
-      <h2>About Us</h2>
-      <hr class="light-sep" />
-      <p>
-        We are a team of experienced professionals dedicated to providing cutting-edge
-        AI solutions through deep learning techniques. From data preprocessing to model
-        deployment, we offer end-to-end development services tailored to our clients'
-        specific needs. Our focus on quality and innovation allows us to deliver customized
-        solutions that drive business value. We are committed to staying at the forefront
-        of this rapidly evolving field and contributing to its growth and development.
-      </p>
-    </div>
-  </section>
-  <!-- Testimonials
+    <section id="team">
+      <div class="container">
+        <h2>About Us</h2>
+        <hr class="light-sep" />
+        <p>
+          We are a team of experienced professionals dedicated to providing
+          cutting-edge AI solutions through deep learning techniques. We offer
+          end-to-end development services, from data preprocessing to model
+          deployment and creation of intelligent agents and bots. Our focus on
+          quality and innovation allows us to deliver customized solutions that
+          drive business value. We are committed to staying at the forefront of
+          this rapidly evolving field and contributing to its growth and
+          development.
+        </p>
+      </div>
+    </section>
+    <!-- Testimonials
 	============================================= -->
-  <!-- <section id="testimonials">
+    <!-- <section id="testimonials">
 
 
 
@@ -463,89 +529,123 @@
       </div>
     </div>
   </section> -->
-  <!-- Contact Us
+    <!-- Contact Us
 	============================================= -->
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h2 class="section-heading">Contact Us</h2>
-          <hr class="sep" />
-          <p class="section-subheading">Tell Us What You Have In Mind</p>
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="section-heading">Contact Us</h2>
+            <hr class="sep" />
+            <p class="section-subheading">Tell Us What You Have In Mind</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
+            <form
+              name="submit-to-google-sheet"
+              id="contactForm"
+              action="https://script.google.com/macros/s/AKfycbyPzRJnuklV8fLqOG3pccLncsaULv4Vn7iO8T8129Mp8xJjODU0pnzB1EqigDhnMX4nZA/exec"
+              method="POST"
+              novalidate
+            >
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Name *"
+                      id="name"
+                      required
+                      data-validation-required-message="Please enter your name."
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Your Email *"
+                      id="email"
+                      required
+                      data-validation-required-message="Please enter your email address."
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="tel"
+                      class="form-control"
+                      placeholder="Your Phone *"
+                      id="phone"
+                      required
+                      data-validation-required-message="Please enter your phone number."
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      placeholder="Your Message *"
+                      id="message"
+                      required
+                      data-validation-required-message="Please enter a message."
+                    ></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button type="submit" class="btn-block">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
-          <form name="submit-to-google-sheet" id="contactForm" action="https://script.google.com/macros/s/AKfycbyPzRJnuklV8fLqOG3pccLncsaULv4Vn7iO8T8129Mp8xJjODU0pnzB1EqigDhnMX4nZA/exec" method="POST" novalidate>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Name *" id="name" required
-                    data-validation-required-message="Please enter your name." />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Your Email *" id="email" required
-                    data-validation-required-message="Please enter your email address." />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required
-                    data-validation-required-message="Please enter your phone number." />
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <textarea class="form-control" placeholder="Your Message *" id="message" required
-                    data-validation-required-message="Please enter a message."></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="clearfix"></div>
-              <div class="col-lg-12 text-center">
-                <div id="success"></div>
-                <button type="submit" class="btn-block">Send Message</button>
-              </div>
-            </div>
-          </form>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="social">
+          <a
+            href="https://www.facebook.com/people/Riz-Systems/100095083069034/"
+            target="_blank"
+            ><i class="fa fa-facebook fa-2x"></i
+          ></a>
+          <a href="https://twitter.com/RizSystems" target="_blank"
+            ><i class="fa fa-twitter fa-2x"></i
+          ></a>
+          <a href="https://www.linkedin.com/company/riz-systems" target="_blank"
+            ><i class="fa fa-linkedin fa-2x"></i
+          ></a>
         </div>
+        <h6>Copyright &copy; 2023 Riz Systems, All Rights Reserved</h6>
       </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <div class="social">
-        <a href="https://www.facebook.com/people/Riz-Systems/100095083069034/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-        <a href="https://twitter.com/RizSystems" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-        <a href="https://www.linkedin.com/company/riz-systems" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-      </div>
-      <h6>
-        Copyright &copy; 2023 Riz Systems, All Rights Reserved
-      </h6>
-    </div>
-  </footer>
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="bootstrap-assets/js/bootstrap.min.js"></script>
-  <script src="js/custom.js"></script>
-  <!-- JS PLUGINS -->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-  <!-- Contact Form -->
-  <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="plugins/waypoints/jquery.waypoints.min.js"></script>
-  <script src="plugins/countTo/jquery.countTo.js"></script>
-  <script src="plugins/inview/jquery.inview.min.js"></script>
-  <script src="plugins/Lightbox/dist/js/lightbox.min.js"></script>
-  <script src="plugins/WOW/dist/wow.min.js"></script>
-  <!-- GOOGLE MAP -->
-  <script src="https://maps.googleapis.com/maps/api/js"></script>
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
-</body>
-
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-assets/js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- JS PLUGINS -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!-- Contact Form -->
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="plugins/waypoints/jquery.waypoints.min.js"></script>
+    <script src="plugins/countTo/jquery.countTo.js"></script>
+    <script src="plugins/inview/jquery.inview.min.js"></script>
+    <script src="plugins/Lightbox/dist/js/lightbox.min.js"></script>
+    <script src="plugins/WOW/dist/wow.min.js"></script>
+    <!-- GOOGLE MAP -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+  </body>
 </html>
