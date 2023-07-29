@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
 /* ==========================================================================
 Global Styles
 ========================================================================== */
@@ -167,7 +168,7 @@ Layout
   background: #fff;
 }
 
-    /* ==========================================================================
+/* ==========================================================================
 Preloader Style
 ========================================================================== */
 .preloader {
@@ -179,6 +180,7 @@ Preloader Style
   z-index: 999999;
   background: #24242a;
 }
+
 .preloader i {
   color: #fff;
   position: absolute;
@@ -193,7 +195,7 @@ Preloader Style
   display: inline-block;
 }
 
-    /* ==========================================================================
+/* ==========================================================================
 Navigation Style
 ========================================================================== */
 .navbar-default {
@@ -201,14 +203,17 @@ Navigation Style
   margin-bottom: 0;
   border: none;
 }
+
 .navbar-default .navbar-header {
   width: 28%;
   padding-right: 15px;
 }
+
 .navbar-default .nav-wrap {
   width: 50%;
 }
-.navbar-default .nav > li > a {
+
+.navbar-default .nav>li>a {
   font-size: 14px;
   color: #fff;
   font-weight: 700;
@@ -219,22 +224,25 @@ Navigation Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.navbar-default .nav > li > a:hover,
-.navbar-default .nav > li > a:focus,
-.navbar-default .nav > li > a:active {
+
+.navbar-default .nav>li>a:hover,
+.navbar-default .nav>li>a:focus,
+.navbar-default .nav>li>a:active {
   color: #a3a3a3;
 }
+
 .navbar-default .social-media {
   float: right;
   padding: 0 15px;
 }
+
 .navbar-default .social-media i {
   font-size: 22px;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
   background: transparent;
   color: #41b883;
 }
@@ -242,23 +250,27 @@ Navigation Style
 .top-nav-collapse {
   background: #24242a;
 }
+
 .top-nav-collapse .navbar-brand {
   height: auto;
 }
+
 .top-nav-collapse .navbar-brand img {
   width: 142px;
   height: 52px;
 }
-.top-nav-collapse .nav > li > a {
+
+.top-nav-collapse .nav>li>a {
   padding: 30px 15px;
 }
 
-    /* ==========================================================================
+/* ==========================================================================
 Sliders Style
 ========================================================================== */
 #owl-hero {
   overflow: hidden;
 }
+
 #owl-hero .item {
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -267,6 +279,7 @@ Sliders Style
   background-position: center;
   background-repeat: no-repeat;
 }
+
 #owl-hero .item .caption {
   position: absolute;
   top: 50%;
@@ -276,18 +289,22 @@ Sliders Style
   text-align: center;
   z-index: 15;
 }
+
 #owl-hero .item .caption h1 {
   margin-top: 40px;
   margin-bottom: 50px;
   text-transform: uppercase;
 }
+
 #owl-hero .item .caption h1 span {
   font-weight: 700;
 }
+
 #owl-hero .item .caption h6 {
   color: #fff;
   margin: 0;
 }
+
 #owl-hero .owl-pagination {
   position: absolute;
   display: block;
@@ -295,9 +312,11 @@ Sliders Style
   width: 100%;
   bottom: 5%;
 }
+
 #owl-hero .owl-pagination .owl-page.active span {
   background: #fff;
 }
+
 #owl-hero .owl-pagination .owl-page span {
   border: 2px solid #fff;
   border-radius: 50%;
@@ -308,18 +327,22 @@ Sliders Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 #owl-hero .owl-buttons div {
   background: #fff;
   font-size: 24px;
   color: #a3a3a3;
   opacity: 1;
 }
+
 #owl-hero .owl-buttons .owl-prev {
   left: -60px;
 }
+
 #owl-hero .owl-buttons .owl-next {
   right: -60px;
 }
+
 #owl-hero .owl-buttons .owl-prev,
 #owl-hero .owl-buttons .owl-next {
   position: absolute;
@@ -346,25 +369,28 @@ Sliders Style
   right: -5px;
 }
 
-    /* ==========================================================================
+/* ==========================================================================
 Welcome Style
 ========================================================================== */
 #welcome {
   padding: 60px 0;
   text-align: center;
 }
+
 #welcome h2 {
   text-transform: uppercase;
 }
+
 #welcome h2 span {
   font-weight: 700;
 }
+
 #welcome img {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-    /* ==========================================================================
+/* ==========================================================================
 Services Style
 ========================================================================== */
 #services {
@@ -372,30 +398,37 @@ Services Style
   padding: 60px 0;
   text-align: center;
 }
+
 #services h2 {
   text-transform: uppercase;
   color: #fff;
 }
+
 #services p {
   color: #fff;
 }
+
 #services .services-box {
   margin-top: 40px;
 }
+
 #services .services-box .col-md-4 {
   margin-bottom: 20px;
 }
+
 #services .services-box .col-md-4 .media-left,
 #services .services-box .col-md-4 .media-right,
 #services .services-box .col-md-4 .media-body {
   padding-right: 30px;
   vertical-align: baseline;
 }
+
 #services .services-box .col-md-4 .media-left p,
 #services .services-box .col-md-4 .media-right p,
 #services .services-box .col-md-4 .media-body p {
   text-align: left;
 }
+
 #services .services-box .col-md-4 .media-left h3,
 #services .services-box .col-md-4 .media-right h3,
 #services .services-box .col-md-4 .media-body h3 {
@@ -403,6 +436,7 @@ Services Style
   color: #fff;
   text-align: left;
 }
+
 #services .services-box .col-md-4 .media-left span,
 #services .services-box .col-md-4 .media-right span,
 #services .services-box .col-md-4 .media-body span {
@@ -410,33 +444,39 @@ Services Style
   color: #fff;
 }
 
-    /* ==========================================================================
+/* ==========================================================================
 Portfolio Style
 ========================================================================== */
 #portfolio {
   padding: 60px 0;
   text-align: center;
 }
+
 #portfolio h2 {
   text-transform: uppercase;
 }
+
 #portfolio p {
   margin-bottom: 40px;
 }
+
 #portfolio .container-fluid {
   padding-left: 0;
   padding-right: 0;
 }
+
 #portfolio .container-fluid .col-lg-4 {
   padding-left: 0;
   padding-right: 0;
 }
+
 #portfolio .portfolio-box {
   display: block;
   position: relative;
   margin: 0 auto;
   max-width: 650px;
 }
+
 #portfolio .portfolio-box .portfolio-box-caption {
   display: block;
   position: absolute;
@@ -452,6 +492,7 @@ Portfolio Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
@@ -459,46 +500,54 @@ Portfolio Style
   text-align: center;
   transform: translateY(-50%);
 }
+
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
 }
+
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 700;
 }
+
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
 }
+
 #portfolio .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
 
-    /* ==========================================================================
+/* ==========================================================================
 Work Process Style
 ========================================================================== */
 #work-process {
   padding: 60px 0;
   text-align: center;
 }
+
 #work-process .col-lg-3 {
   margin-top: 40px;
 }
+
 #work-process h2 {
   text-transform: uppercase;
 }
+
 #work-process h4 {
   text-transform: uppercase;
   color: #0d0d0d;
 }
+
 #work-process span {
   font-size: 48px;
   color: #0d0d0d;
   margin-bottom: 15px;
 }
 
-    /* ==========================================================================
+/* ==========================================================================
 Our Team Style
 ========================================================================== */
 #team {
@@ -506,25 +555,31 @@ Our Team Style
   padding: 60px 0;
   text-align: center;
 }
+
 #team h2 {
   text-transform: uppercase;
   color: #fff
 }
+
 #team p {
   color: #fff;
 }
+
 #team .team {
   margin-top: 40px;
   margin-bottom: 20px;
 }
+
 #team .team h4 {
   margin-top: 20px;
   text-transform: uppercase;
   font-weight: 700;
 }
+
 #team .team p {
   color: #a3a3a3;
 }
+
 #team .team a {
   color: #0d0d0d;
   font-size: 22px;
@@ -534,13 +589,14 @@ Our Team Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 #team .team a:hover,
 #team .team a:focus,
 #team .team a:active {
   color: #a3a3a3;
 }
 
-    /* ==========================================================================
+/* ==========================================================================
 Testimonials Style
 ========================================================================== */
 #testimonials {
@@ -555,38 +611,47 @@ Testimonials Style
   padding: 60px 0;
   text-align: center;
 }
+
 #testimonials h2 {
   text-transform: uppercase;
   color: #fff;
 }
+
 #testimonials p {
   color: #fff;
 }
+
 #testimonials .item .quote {
   margin: 20px auto;
   width: 80%;
 }
+
 #testimonials .item .quote .right {
   margin-left: 40px;
   font-size: 32px;
   color: #fff;
 }
+
 #testimonials .item .quote .left {
   float: left;
   margin-right: 40px;
   color: #fff;
 }
+
 #testimonials .item h5 {
   color: #fff;
   line-height: 36px;
 }
+
 #testimonials .item h5 span {
   font-weight: 700;
   text-transform: uppercase;
 }
+
 #testimonials .owl-pagination .owl-page.active span {
   background-color: #fff;
 }
+
 #testimonials .owl-pagination .owl-page span {
   border: 2px solid #fff;
   border-radius: 50%;
@@ -598,22 +663,26 @@ Testimonials Style
   transition: all 0.8s ease-in-out;
 }
 
-    /* ==========================================================================
+/* ==========================================================================
 Contact Us Style
 ========================================================================== */
 #contact {
   padding: 60px 0;
   text-align: center;
 }
+
 #contact h2 {
   text-transform: uppercase;
 }
+
 #contact form {
   margin: 40px 0;
 }
+
 #contact .form-group {
   margin-bottom: 35px;
 }
+
 #contact .form-control {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -622,13 +691,14 @@ Contact Us Style
   color: #0d0d0d;
   min-height: 45px;
 }
+
 #contact textarea {
   height: 205px;
   resize: none;
 }
 
- 
-    /* ==========================================================================
+
+/* ==========================================================================
 Footer Map Style
 ========================================================================== */
 footer {
@@ -636,13 +706,16 @@ footer {
   padding: 60px 0;
   text-align: center;
 }
+
 footer h1 {
   text-transform: uppercase;
   font-weight: 700;
 }
+
 footer .social {
   margin: 40px 0;
 }
+
 footer .social a {
   color: #fff;
   margin-left: 20px;
@@ -652,71 +725,88 @@ footer .social a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 footer .social a:hover,
 footer .social a:focus,
 footer .social a:active {
   color: #a3a3a3;
 }
+
 footer h6 {
-  text-transform:capitalize;
+  text-transform: capitalize;
   color: #fff;
 }
 
-    /* ==========================================================================
+/* ==========================================================================
 Media Queries Style
 ========================================================================== */
 @media (max-width: 992px) {
+
   /*-- Navigation --*/
   .navbar-default {
     background: #24242a;
   }
+
   .navbar-default .navbar-header {
     width: 100%;
     padding-right: 0;
   }
+
   .navbar-default .navbar-header .navbar-brand {
     height: auto;
   }
+
   .navbar-default .navbar-header .navbar-brand img {
     width: 52px;
     height: 52px;
   }
+
   .navbar-default .nav-wrap {
     width: 100%;
   }
+
   .navbar-default .navbar-toggle {
     padding-top: 25px;
     padding-bottom: 25px;
     border: none;
   }
+
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
   }
+
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus,
   .navbar-default .navbar-toggle:active {
     background: none;
   }
+
   .navbar-default .navbar-left,
   .navbar-default .navbar-right {
     float: none !important;
   }
+
   .navbar-default .navbar-toggle {
     display: block;
   }
+
   .navbar-default .navbar-collapse {
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   }
+
   .navbar-default .navbar-collapse.collapse {
     display: none !important;
   }
+
   .navbar-default .navbar-nav {
     float: none !important;
     margin-top: 7.5px;
   }
-  .navbar-default .navbar-nav > li {
+
+  .navbar-default .navbar-nav>li {
     float: none;
   }
+
   .navbar-default .collapse.in {
     display: block !important;
   }
@@ -725,12 +815,15 @@ Media Queries Style
   #owl-hero h1 {
     font-size: 42px;
   }
+
   #owl-hero h6 {
     font-size: 16px;
   }
+
   #owl-hero .btn {
     margin-top: 20px;
   }
+
   #owl-hero .owl-buttons {
     display: none;
   }
@@ -749,3 +842,22 @@ Media Queries Style
     font-size: 18px;
   }
 }
+
+/* blog css */
+#blog {
+  background: #24242a;
+  padding: 100px 0;
+ 
+}
+
+
+
+#blog h3 {
+  text-transform: capitalize;
+  color: #fff;
+}
+
+#blog p {
+  color: #fff;
+}
+
