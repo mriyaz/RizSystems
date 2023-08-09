@@ -4,9 +4,9 @@
 Global Styles
 ========================================================================== */
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Heebo, sans-serif;
   font-size: 16px;
-  color: #0d0d0d;
+  color: #000000;
   overflow-x: hidden;
 }
 
@@ -67,9 +67,10 @@ h6 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 17px;
   color: #000;
   font-weight: 400;
+  
 }
 
 /* ==========================================================================
@@ -97,7 +98,7 @@ Buttons Styles
 .btn-transparent:focus,
 .btn-transparent:active {
   background: #fff;
-  color: #0d0d0d;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -109,7 +110,7 @@ Buttons Styles
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-  color: #0d0d0d;
+  color: #000000;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -129,6 +130,7 @@ Buttons Styles
 
 .btn-block {
   background: #41b883;
+
   padding: 15px 0;
   font-size: 16px;
   -moz-border-radius: 0;
@@ -142,7 +144,7 @@ Buttons Styles
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  border: 3px solid #24242a;
+  border: 3px solid #343468;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -153,7 +155,7 @@ Buttons Styles
 .btn-block:focus,
 .btn-block:active {
   background: #fff;
-  color: #0d0d0d;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -161,7 +163,7 @@ Buttons Styles
 Layout 
 ========================================================================== */
 .dark-bg {
-  /* background: #24242a; */
+  /* background: #343468; */
 }
 
 .light-bg {
@@ -178,7 +180,7 @@ Preloader Style
   right: 0;
   bottom: 0;
   z-index: 999999;
-  background: #24242a;
+  background: #343468;
 }
 
 .preloader i {
@@ -200,6 +202,7 @@ Navigation Style
 ========================================================================== */
 .navbar-default {
   background: rgba(13, 13, 13, 0.6);
+  background-image: linear-gradient(to right, #343468 18%,#0062E6);
   margin-bottom: 0;
   border: none;
 }
@@ -214,7 +217,7 @@ Navigation Style
 }
 
 .navbar-default .nav>li>a {
-  font-size: 14px;
+  font-size: 17px;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
@@ -237,7 +240,7 @@ Navigation Style
 }
 
 .navbar-default .social-media i {
-  font-size: 22px;
+  font-size: 25px;
 }
 
 
@@ -249,7 +252,8 @@ Navigation Style
 }
 
 .top-nav-collapse {
-  background: #24242a;
+  background: #343468;
+  background-image: linear-gradient(to right, #343468 18%,#0062E6); 
 }
 
 .top-nav-collapse .navbar-brand {
@@ -395,7 +399,8 @@ Welcome Style
 Services Style
 ========================================================================== */
 #services {
-  background: #24242a;
+  background: #343468;  
+  background-image: linear-gradient(to right, #343468 18%,#0062E6); 
   padding: 60px 0;
   text-align: center;
 }
@@ -407,6 +412,8 @@ Services Style
 
 #services p {
   color: #fff;
+  
+
 }
 
 #services .services-box {
@@ -442,7 +449,8 @@ Services Style
 #services .services-box .col-md-4 .media-right span,
 #services .services-box .col-md-4 .media-body span {
   font-size: 36px;
-  color: #fff;
+  color: #41b883;
+  font-weight: bold;
 }
 
 /* ==========================================================================
@@ -539,12 +547,12 @@ Work Process Style
 
 #work-process h4 {
   text-transform: uppercase;
-  color: #0d0d0d;
+  color: #000000;
 }
 
 #work-process span {
   font-size: 48px;
-  color: #0d0d0d;
+  color: #41b883;
   margin-bottom: 15px;
 }
 
@@ -552,7 +560,9 @@ Work Process Style
 Our Team Style
 ========================================================================== */
 #team {
-  background: #24242a;
+  background: #343468;
+  /* background-image: linear-gradient(135deg, #90f 18%, #3f0efa); */
+  background-image: linear-gradient(to right, #343468 18%,#0062E6); 
   padding: 60px 0;
   text-align: center;
 }
@@ -563,6 +573,7 @@ Our Team Style
 }
 
 #team p {
+  text-align: left;
   color: #fff;
 }
 
@@ -582,7 +593,7 @@ Our Team Style
 }
 
 #team .team a {
-  color: #0d0d0d;
+  color: #000000;
   font-size: 22px;
   padding-right: 10px;
   -moz-transition: all 0.3s ease-in-out;
@@ -688,8 +699,8 @@ Contact Us Style
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-  border: 2px solid #24242a;
-  color: #0d0d0d;
+  border: 2px solid #343468;
+  color: #000000;
   min-height: 45px;
 }
 
@@ -703,7 +714,8 @@ Contact Us Style
 Footer Map Style
 ========================================================================== */
 footer {
-  background: #24242a;
+  background: #343468;
+  background-image: linear-gradient(to right, #343468 18%,#0062E6); 
   padding: 60px 0;
   text-align: center;
 }
@@ -711,6 +723,7 @@ footer {
 footer h1 {
   text-transform: uppercase;
   font-weight: 700;
+  
 }
 
 footer .social {
@@ -745,7 +758,8 @@ Media Queries Style
 
   /*-- Navigation --*/
   .navbar-default {
-    background: #24242a;
+    background: #343468;
+    background-image: linear-gradient(to right, #343468 18%,#0062E6); 
   }
 
   .navbar-default .navbar-header {
@@ -846,7 +860,8 @@ Media Queries Style
 
 /* blog css */
 #blog {
-  background: #24242a;
+  background: #343468;
+  background-image: linear-gradient(to right, #343468 18%,#0062E6); 
   padding: 100px 0;
 
 }
